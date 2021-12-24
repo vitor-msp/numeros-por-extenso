@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+div {
+  margin: 20px;
+  color: gray;
+}
+span {
+  color: black;
+}
+input {
+  width: 100%;
+}

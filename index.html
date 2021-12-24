@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Números por extenso</title>
+</head>
+<body>
+  <h1>Números por extenso</h1>
+  <div>
+    <label>
+      <span>Escolha um número entre 0 e 999:</span><br>
+      <input type="range" value="0" id="range" min="0" max="999" step="1">
+    </label>
+    <label><br>
+      Número atual:<br>
+      <input type="text" value="0" id="numero" readonly disabled>
+    </label><br>
+    <label>
+      Número por extenso:<br>
+      <input type="text" value="zero" id="texto" readonly disabled>
+    </label>
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
